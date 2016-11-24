@@ -1,0 +1,31 @@
+{
+  "name": "jenkinsSample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlgc00/jenkinsSample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlgc00/jenkinsSample/issues"
+  },
+  "homepage": "https://github.com/jlgc00/jenkinsSample#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1",
+    "supertest": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "should": "^11.1.1",
+    "supertest": "^2.0.1"
+  }
+}
