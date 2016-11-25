@@ -27,5 +27,8 @@
     "mocha": "^3.1.2",
     "should": "^11.1.1",
     "supertest": "^2.0.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports.xml"
   }
 }
