@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="localJenkinsTest" default="build" basedir=".">
-  <target name="init" description="Create build folder and subfolders if required">
+  <target name="init" description="Create build folder and subfolders if required...">
       <echo message="Creating Directories..." />
       <mkdir dir="build"/>
       <mkdir dir="build/testResults"/>
