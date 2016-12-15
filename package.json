@@ -27,6 +27,6 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "npm install && node app.js"
+    "start": "npm install && forever restart app.js"
   }
 }
