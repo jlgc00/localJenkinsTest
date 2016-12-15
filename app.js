@@ -1,8 +1,7 @@
-var express = require('express');
-var app = express();
+var app = require('express')()
 
 app.get('/',function(req,res) {
-  res.send("Hello Node via Jenkins with mocha!!");
-});
+  res.send("Hello World")
+})
 
-app.listen(4000);
+app.listen(3000)

@@ -1,26 +1,16 @@
-var supertest = require("supertest");
-var should = require("should");
+var supertest = require("supertest")
+  , should = require("should")
+  , server = supertest.agent("http://localhost:3000")
 
-// This agent refers to PORT where the program is running.
-
-var server = supertest.agent("http://34.192.114.250:4000");
-
-// UNIT test begin
-
-describe("SAMPLE unit testing...",function(){
-
-  // #1 should return home page
-  it("should return home page",function(done){
-    // calling home page
+describe("Server launch test",function(){
+  it("should return landing page",function(done){
     server
     .get("/")
     .expect("Content-type",/text/)
-    .expect(200) // THis is HTTP response
+    .expect(200) 
     .end(function(err,res){
-      // HTTP status should be 200
-      res.status.should.equal(200);
-      done();
-    });
-  });
-
-});
+      res.status.should.equal(200)
+      done()
+    })
+  })
+})
